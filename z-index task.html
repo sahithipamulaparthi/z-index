@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box1{
+            z-index: -1;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            background-color: blueviolet;
+            height: 70px;
+            width:150px;
+            border: 2px solid white;
+        }
+        .box2{
+            z-index: -1;
+            position: relative;
+            top: 30px;
+            left: 30px;
+            background-color: violet;
+            height: 70px;
+            width:150px;
+            border: 2px solid white;
+        }
+        .box3{
+            z-index: -1;
+            position: relative;
+            top: 0px;
+            left: 60px;
+            background-color:blue;
+            height: 70px;
+            width:150px;
+            border: 2px solid white;
+        }
+        .box4{
+            z-index: -1;
+            position: relative;
+            top:-30px;
+            left: 90px;
+            background-color: skyblue;
+            height: 70px;
+            width:150px;
+            border: 2px solid white;
+        }
+        .box5{
+            z-index: -1;
+            position: relative;
+            top: -60px;
+            left: 120px;
+            background-color: yellowgreen;
+            height: 70px;
+            width:150px;
+            border: 2px solid white;
+        }
+        .box6{
+            z-index: -1;
+            position: relative;
+            top: -90px;
+            left: 150px;
+            background-color:orange;
+            height: 70px;
+            width:150px;
+            border: 2px solid white;
+        }
+        .box7{
+            z-index:-1;
+            position: relative;
+            top: -120px;
+            left: 170px;
+            background-color: red;
+            height: 70px;
+            width:150px;
+            border: 2px solid white;
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">background/border</div>
+    <div class="box2">negative z-index</div>
+    <div class="box3">block level boxes</div>
+    <div class="box4">floated boxes </div>
+    <div class="box5">inline boxes</div>
+    <div class="box6">z-index=0</div>
+    <div class="box7">positive z-index</div>
+</body>
+</html>
